@@ -1,0 +1,39 @@
+{
+  "best_model": "Logistic Regression",
+  "test_auc": 0.7522,
+  "feature_cols": [
+    "tenure",
+    "monthly_charges",
+    "total_charges",
+    "num_products",
+    "support_tickets",
+    "login_frequency",
+    "contract_type",
+    "payment_method",
+    "tech_support",
+    "online_backup",
+    "senior_citizen"
+  ],
+  "num_cols": [
+    "tenure",
+    "monthly_charges",
+    "total_charges",
+    "num_products",
+    "support_tickets",
+    "login_frequency"
+  ],
+  "cat_cols": [
+    "contract_type",
+    "payment_method",
+    "tech_support",
+    "online_backup"
+  ],
+  "bin_cols": [
+    "senior_citizen"
+  ],
+  "model_comparison": {
+    "Logistic Regression": 0.7807,
+    "Random Forest": 0.7702,
+    "Gradient Boosting": 0.7677
+  }
+}
